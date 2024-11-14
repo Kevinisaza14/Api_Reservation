@@ -1,0 +1,19 @@
+{
+    "name": "kevin/htdocs",
+    "autoload": {
+        "psr-4": {
+            "Kevin\\Htdocs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kevinisaza14",
+            "email": "kevinisaza16285@gmail.com"
+        }
+    ],
+    "require": {
+        "laminas/laminas-diactoros": "^3.5",
+        "slim/psr7": "^1.7",
+        "slim/slim": "4.*"
+    }
+}
